@@ -1,0 +1,142 @@
+002 500.0   51.2473 -168.3574 -139.0075  000 ! -LF Laurentia-fixed reference frame (position at 750 Ma)
+002 750.0   51.2473 -168.3574 -139.0075  000 ! -LF 
+001 510.0   41.4832 -164.5569  138.3843  002 ! 
+001 520.0   44.12 -166.99  132.81  002 !
+001 530.0   38.2846 -157.0817  151.4813  002 !
+001 540.0   49.537 -172.9987  122.1002  002 !
+001 565.0   49.9258 -175.6845  124.2046  002 ! 
+001 575.0   -8.3145  -11.755 -148.7352  002 ! 
+001 590.0    2.3292  -10.6109 -152.3826  002 !
+001 615.0   41.9642 -159.1847  156.339  002 !
+001 720.0   45.9666 -169.3888  140.0889  002 !
+001 750.0   51.2473 -168.3574  139.0075  002 ! 
+003 520.0   44.12 -166.99  132.81  101 ! MGD-LAU Moving grid to Laurentia
+003 530.0   38.2846 -157.0817  151.4813  101 ! MGD-LAU
+003 540.0   49.537 -172.9987  122.1002  101 ! MGD-LAU
+003 565.0   49.9258 -175.6845  124.2046  101 ! MGD-LAU
+003 575.0   -8.3145  -11.755 -148.7352  101 ! MGD-LAU
+003 590.0    2.3292  -10.6109 -152.3826  101 ! MGD-LAU
+003 615.0   41.9642 -159.1847  156.339  101 ! MGD-LAU
+003 720.0   45.9666 -169.3888  140.0889  101 ! MGD-LAU
+003 750.0   51.2473 -168.3574  139.0075  101 ! MGD-LAU
+101 510.0   41.4832 -164.5569 -138.3843  001 ! LAU-PM Laurentia to Paleomagnetic reference frame
+101 520.0   44.12 -166.99 -132.81  001 ! LAU-PM
+101 530.0   38.2846 -157.0817 -151.4813  001 ! LAU-PM
+101 540.0   49.537 -172.9987 -122.1002  001 ! LAU-PM
+101 565.0   49.9258 -175.6845 -124.2046  001 ! LAU-PM (575-565 Ma fit from Robert et al. 2017)
+101 575.0   -8.3145  -11.755  148.7352  001 ! LAU-PM (575-565 Ma fit from Robert et al. 2017)
+101 590.0    2.3292  -10.6109  152.3826  001 ! LAU-PM
+101 615.0   41.9642 -159.1847 -156.339  001 ! LAU-PM
+101 720.0   45.9666 -169.3888 -140.0889  001 ! LAU-PM
+101 750.0   51.2473 -168.3574 -139.0075  001 ! LAU-PM
+1011  0.0   90.0    0.0    0.0  101 ! TRC-LAU Taconic ribbon continent to Laurentia
+1011 550.0   90.0    0.0    0.0  101 ! TRC-LAU
+1011 565.0   54.41   36.88   -3.57  101 ! TRC-LAU
+1011 615.0   90.0    0.0    0.0  101 ! TRC-LAU
+102 125.0   67.5 -118.48  -14.0  101 ! GRN-NAM
+102 600.0   67.5 -118.48  -14.0  101 ! GRN-NAM
+102 1100.0   67.5 -118.48  -14.0  101 ! GRN-NAM (from Roest & Srivastava 1989)
+302 520.0   38.49   76.59 -302.15  101 ! BAL-LAU Baltica to Laurentia
+302 550.0   38.49   76.59 -302.15  101 ! BAL-LAU
+302 550.0   16.6601  179.8752  246.5357  001 ! BAL-PM Baltica to Paleomagnetic reference frame
+302 565.0   45.07 -153.36  213.56  001 ! BAL-PM (575-565 Ma fit from Robert et al. 2017)
+302 565.0  -58.55  110.35 -323.38  101 ! BAL-LAU Baltica to Laurentia
+302 590.0  -71.0  115.17 -311.57  101 ! BAL-LAU
+302 700.0  -78.06  122.25 -299.36  101 ! BAL-LAU
+302 750.0  -78.06  122.25 -299.36  101 ! BAL-LAU (Rodinia fit from Li et al. 2008)
+303 430.0   78.64  161.9  -32.0  101 ! SI-LAU Scotland-Ireland to Laurentia (THT crossover to NAM 2007)
+303 1100.0   78.64  161.9  -32.0  101 ! SI-LAU
+2201 520.0    1.7556 -131.5257  -96.3959  001 ! AM-PM Amazonia to Paleomagnetic reference frame
+2201 520.0   10.35  143.86   94.22  101 ! AM-LAU Amazonia to Laurentia
+2201 540.0    3.5735  142.0356   92.4444  101 ! AM-LAU
+2201 540.0   11.4139 -123.8813  -98.2535  001 ! AM-PM Amazonia to Paleomagnetic reference frame
+2201 565.0   10.5565 -122.8828  -97.8657  001 ! AM-PM (575-565 Ma fit from Robert et al. 2017)
+2201 565.0    3.3216  142.6871   98.048  101 ! AM-LAU Amazonia to Laurentia
+2201 615.0    1.2055  141.4984   98.0008  101 ! AM-LAU
+2201 650.0   -1.5893  139.9231   98.0951  101 ! AM-LAU
+2201 700.0  -12.2687  133.7798  100.1233  101 ! AM-LAU (Rodinia fit from Li et al. 2008)
+2201 750.0  -12.2687  133.7798  100.1233  101 ! AM-LAU (Rodinia fit from Li et al. 2008)
+22201 615.0   11.5856 -128.1907   13.883  2201 ! PSZ-AM Puncoviscana subduction zone to Amazonia
+22201 650.0   90.0    0.0    0.0  2201 ! PSZ-AM
+201  0.0   90.0    0.0    0.0  2201 ! NSAM-AM Northern South America to Amazonia
+201 750.0   90.0    0.0    0.0  2201 ! NSAM-AM
+202 500.0   -7.1385  -68.6558    2.5624  201 ! PA-NSAM Parana to Northern South America (from CEED model)
+202 750.0   -7.1385  -68.6558    2.5624  201 ! PA-NSAM 
+290 500.0    7.9571  -61.3935    3.2736  201 ! CO-NSAM Colorado (N Patagonia) to Northern South America (from CEED model)
+290 750.0    7.9571  -61.3935    3.2736  201 ! CO-NSAM 
+205 166.0    3.5   98.4   67.1  2201 ! YUC-AM Yucatan to Amazonia (from CEED model)
+205 750.0    3.5   98.4   67.1  2201 ! YUC-AM
+215 260.0   15.4738   71.6894   51.65  2201 ! SM-AM Sierra Madre to Amazonia (from CEED model)			
+215 615.0   15.4738   71.6894   51.65  2201 ! SM-AM
+215 750.0   15.4738   71.6894   51.65  2201 ! SM-AM
+216  0.0   90.0    0.0    0.0  215 ! MO-SM Mixteca-Oaxaca to Sierra Madre (from CEED model)
+216 750.0   90.0    0.0    0.0  215 ! MO-SM
+2203 500.0   90.0    0.0    0.0  202 ! RP-PA Rio de la Plata to Parana
+2203 520.0   90.0    0.0    0.0  202 ! RP-PA
+2203 550.0   54.4256  -35.3789    5.9061  202 ! RP-PA (from CEED model)
+2203 750.0   54.4256  -35.3789    5.9061  202 ! RP-PA (from CEED model)
+22031 520.0   -6.6092   60.3341   26.6916  2201 ! PC-AM Precordillera terrane to Amazonia
+22031 530.0   -6.6092   60.3341   26.6916  2201 ! PC-AM
+22031 530.0  -10.1391   65.9895   28.7579  22032 ! PC-WSP Precordillera terrane to western Sierras Pampeanas
+22031 540.0  -10.1391   65.9895   28.7579  22032 ! PC-WSP
+22031 540.0  -11.0694  134.6294   92.5574  101 ! PC-LAU Precordillera terrane to Laurentia
+22031 750.0  -11.0694  134.6294   92.5574  101 ! PC-LAU
+22032 520.0   90.0    0.0    0.0  2203 ! WSP-RP western Sierras Pampeanas to Rio de la Plata
+22032 530.0   90.0    0.0    0.0  2203 ! WSP-RP
+22032 530.0    8.4881  142.728   90.1331  101 ! WSP-LAU western Sierras Pampeanas to Laurentia
+22032 540.0    4.8748  146.5483   84.7554  101 ! WSP-LAU
+22032 540.0   17.32 -124.7086  -93.3871  001 ! WSP-PM western Sierras Pampeanas to Paleomagnetic reference frame
+22032 550.0   25.0269 -120.4247  -93.1111  001 ! WSP-PM
+22032 550.0    1.1355  154.6528   81.8034  101 ! WSP-LAU western Sierras Pampeanas to Laurentia
+22032 565.0   -1.8701  154.1883   82.9396  101 ! WSP-LAU
+22032 565.0   46.2646  125.2937  -23.383  2201 ! WSP-AM western Sierras Pampeanas to Amazonia
+22032 615.0   52.0953  145.0756  -23.8084  2201 ! WSP-AM
+22032 615.0   -8.3092  151.5015   84.5435  101 ! WSP-LAU western Sierras Pampeanas to Laurentia
+22032 750.0   -8.3092  151.5015   84.5435  101 ! WSP-LAU
+22033 500.0   90.0    0.0    0.0  2203 ! ESP-RP eastern Sierras Pampeanas to Rio de la Plata
+22033 750.0   90.0    0.0    0.0  2203 ! ESP-RP
+22034 520.0   90.0    0.0    0.0  2203 ! AA-RP Arequipa-Antofalla to Rio de la Plata
+22034 530.0   90.0    0.0    0.0  2203 ! AA-RP
+22034 530.0   90.0    0.0    0.0  22032 ! AA-WSP Arequipa-Antofalla to western Sierras Pampeanas
+22034 550.0  -21.22  -76.73  -21.14  22032 ! AA-WSP
+22034 615.0  -21.22  -76.73  -21.14  22032 ! AA-WSP
+22034 615.0  -10.0424  139.8571   97.6994  101 ! AA-LAU Arequipa-Antofalla to Laurentia
+22034 750.0  -10.0424  139.8571   97.6994  101 ! AA-LAU Arequipa-Antofalla to Laurentia
+2204 500.0   50.7711  -35.1341   53.4567  7703 ! SF-WAC Sao Francisco to West Africa (from CEED model)
+2204 615.0   50.7711  -35.1341   53.4567  7703 ! SF-WAC
+7701 500.0   33.6493   26.0193   -2.34  7703 ! CON-WAC Congo to West Africa (from CEED model)
+7701 615.0   33.6493   26.0193   -2.34  7703 ! CON-WAC
+7703 520.0   50.7711  -35.1341  -53.4567  2201 ! WAC-AM West Africa to Amazonia (from CEED model)
+7703 550.0   52.3761  -23.4644  -53.0237  2201 ! WAC-AM
+7703 750.0   52.3761  -23.4644  -53.0237  2201 ! WAC-AM
+7704 500.0   90.0    0.0    0.0  7703 ! HOG-WAC Hoggar to West Africa
+7704 750.0   90.0    0.0    0.0  7703 ! HOG-WAC
+701 500.0   50.0  -32.5  -55.08  2201 ! SAFR-AM South Africa to Amazonia (from CEED model)
+701 750.0   50.0  -32.5  -55.08  2201 ! SAFR-AM
+7702 500.0   33.6493   26.0193   -2.34  7703 ! KAL-WAC Kalahari to West Africa (from CEED model)
+7702 750.0   33.6493   26.0193   -2.34  7703 ! KAL-WAC
+709 500.0   50.1737  -32.326  -54.9704  2201 ! SOM-AM Somalia to Amazonia (from CEED model)
+709 750.0   50.1737  -32.326  -54.9704  2201 ! SOM-AM
+714 500.0   50.7711  -35.1341  -53.4567  2201 ! NWA-AM Northwest Africa to Amazonia (from CEED model)
+714 750.0   50.7711  -35.1341  -53.4567  2201 ! NWA-AM
+715 500.0   50.0642  -32.9313  -55.7281  2201 ! NEA-AM Northeast Africa to Amazonia (from CEED model)
+715 750.0   50.0642  -32.9313  -55.7281  2201 ! NEA-AM
+7705 500.0   40.8478   11.0693   -2.6899  7703 ! SAH-WAC Sahara to West Africa (from CEED model)
+7705 750.0   40.8478   11.0693   -2.6899  7703 ! SAH-WAC
+
+
+108 500.0   -0.4818 -176.8331  -34.4542  2201 ! 
+108 520.0   -0.4818 -176.8331  -34.4542  2201 !
+108 750.0   -0.4818 -176.8331  -34.4542  2201 ! 
+
+315 500.0   7.8935   34.4553   40.5389  7703 !
+315 520.0    7.8935   34.4553   40.5389  7703 !
+315 600.0   7.8935   34.4553   40.5389  7703 !
+315 750.0   7.8935   34.4553   40.5389  7703 !
+
+3154 500.0   16.0123 -121.0219   -3.6201  315 ! 
+3154 520.0   16.0123 -121.0219   -3.6201  315 !
+3154 750.0   16.0123 -121.0219   -3.6201  315 ! 
+3155 500.0   13.7346 -104.2806    3.6629  315 ! 
+3155 520.0   13.7346 -104.2806    3.6629  315 !
+3155 750.0   13.7346 -104.2806    3.6629  315 ! 
