@@ -1,1 +1,2 @@
-# Ediacaran_paleogeography
+# Evaluation of paleomagnetic bias in Ediacaran global paleogeographic reconstructions
+ 
