@@ -508,6 +508,7 @@ def plot_global_recon(df_Apoles, df_Bpoles, mname='R21', projtype='orth', savefi
     elif mname == 'M21': plateids = [201, 302, 101, 22041, 701, 714]
     elif mname == 'M17': plateids = [2201, 3001, 1001, 2203, 7701, 7703]
     elif mname == 'L08': plateids = [201, 302, 199, 294, 717, 714]
+    elif mname == 'TC16': plateids = [201, 302, 101, 202, 701, 714] 
 
     cmap_plateids = pd.DataFrame({'plateids': plateids, 'cmapind': [ 'c', 'b', 'forestgreen', 'salmon', 'orange', 'mediumpurple']})
 
