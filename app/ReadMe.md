@@ -4,4 +4,4 @@
 
 This app is to visualize paleomagnetic bias of paleogeographies. 
 
-To run the app, open a terminal and key in "python pm_bias.py".
+To run the app, invoke a command "python pm_bias.py" in the terminal.
